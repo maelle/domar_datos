@@ -20,6 +20,8 @@ Cada script presenta algunas lineas de codigo para un tema.
 
 * [ordenar_lineas.R](./R/ordenar_lineas.R) Aqui ves como puedes ordenar la tabla para tener por ejemplo los individuos mas pequeños al principio y los mas grandes al final.
 
+* [trabajar_con_grupos.R](./R/trabajar_con_grupos.R) Para ver como crear una nueva variable con valor que depiende de un grupo, por ejemplo en una tabla de individuos con varios grupos de edad, si quieres saber qué persona es la mas alta en cada grupo, la secunda mas alta, etc.
+
 * [resumir_datos.R](./R/resumir_datos.R) Con dplyr es posible calcular por ejemplo la mediana de la edad en cada pais si tienes una tabla con las columnas individuo, pais, edad. 
 
 * [transformar_tabla.R](./R/transformar_tabla.R) Eso es magia! Por ejemplo puedes transformar una tabla "wide" en una table "long".
