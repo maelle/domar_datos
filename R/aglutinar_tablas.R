@@ -1,3 +1,11 @@
-# example with adding country names instead of code
+library("dplyr")
+load("data/latestData.RData")
+load("data/countries.RData")
+glimpse(latestData)
+glimpse(countries)
 
-# find values in latest for people based on the country they live in?
+latestData %>% left_join(countries, by = c("country" = "code"))
+
+latestData %>% left_join(countries, by = c("country" = "code")) %>%
+  mutate(country = name) %>%
+  select(- name)

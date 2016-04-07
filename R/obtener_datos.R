@@ -15,6 +15,10 @@ for(page in 1:80){
                               aq_measurements(location = stationName, limit = 1000,
                                               page = page))
 }
-
 save(meas100ail, file = "data/meas100ail.RData")
+
+# countrie names
+countries <- aq_countries()
+save(countries, file = "data/countries.RData")
+
 
