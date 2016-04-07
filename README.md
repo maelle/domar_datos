@@ -34,3 +34,6 @@ Cada script presenta algunas lineas de codigo para un tema.
 * [hoja de referencia](https://www.rstudio.com/wp-content/uploads/2015/03/data-wrangling-spanish.pdf) de RStudio para domar datos (la tengo sobre mi escritorio!)
 
 * [Estos cursos](https://www.coursera.org/specializations/jhu-data-science/1) son gratuitos y muy buenos. Por ejemplo he hecho "Getting and Cleaning Data" y aprendido muchas cosas que me sirven cada dia ahora!
+
+## Acknowledgements
+Thanks to Margaux Sanchez for her help!
