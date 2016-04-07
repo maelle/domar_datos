@@ -5,12 +5,16 @@ load("data/latestData.RData")
 
 glimpse(latestData)
 
+# COLUMNAS
+# Tal vez no m'interessa algunas columnas
+latestData <- latestData %>% select(- cityURL, - locationURL, - longitude, - latitude)
+# Nueva variable con letras minúsculas
+latestData %>% mutate(smallCountry = tolower(country))
+# Nueva variable 
+latestData %>% mutate(biggerValue = value + 10)
 
 
-
-# Tal vez no m'interessa las columnas cityURL y locationURL
-latestData %>% select(- cityURL, - locationURL)
-
+# LINEAS
 # O si quiero solo los datos (values) positivos
 latestPositivos <- latestData %>% filter(value > 0)
 # O solo las datos para Mongolia

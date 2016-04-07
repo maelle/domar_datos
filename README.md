@@ -10,7 +10,7 @@ Cada script presenta algunas lineas de codigo para un tema.
 
 * [echar_ojeada.R](.R/echar_ojeada.R) Quando has cargado datos en R, qué haces para ver lo que hay dientro? Por supuesto en la vida real también se hacen figures como boxplots y todo, pero sería un tema para otra sessión.
 
-* [anadir_eliminar_columnas.R](.R/anadir_eliminar_columnas.R) En tu tabla tal vez hay columnas que no necesitas o quieres anadir algo, por ejemplo tienes una columna con nombres en pequeñas letras y la quieres con majusculas. 
+* [anadir_eliminar_columnas.R](.R/anadir_eliminar_columnas.R) En tu tabla tal vez hay columnas que no necesitas o quieres anadir algo, por ejemplo tienes una columna con nombres en letras minúsculas y la quieres con majusculas. 
 
 * [eliminar_lineas.R](.R/eliminar_lineas.R) Como puedes filtrar lineas que cumplen algunos criterios, o eliminar las lineas que hay mas de una vez.
 
@@ -30,3 +30,5 @@ Cada script presenta algunas lineas de codigo para un tema.
 ## Enlaces utiles
 
 * [hoja de referencia](https://www.rstudio.com/wp-content/uploads/2015/03/data-wrangling-spanish.pdf) de RStudio para domar datos (la tengo sobre mi escritorio!)
+
+* [Estos cursos](https://www.coursera.org/specializations/jhu-data-science/1) son gratuitos y muy buenos. Por ejemplo he hecho "Getting and Cleaning Data" y aprendido muchas cosas que me sirven cada dia ahora!
