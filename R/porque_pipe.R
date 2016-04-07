@@ -1,29 +1,16 @@
 library("dplyr")
 
-load("data/latestData.RData")
+load("data/meas100ail.RData")
 
 # sin tubos
-latestData2 <- mutate(latestData, biggerValue = value + 10)
-latestData2 <- select(latestData2, - cityURL, - locationURL)
-latestData2 <- mutate(latestData2, countrySmall = tolower(country))
-latestData2 <- select(latestData2, - country)
+meas100ail2 <- mutate(meas100ail, biggerValue = value + 10)
+meas100ail2 <- select(meas100ail2, - cityURL, - locationURL)
+meas100ail2 <- mutate(meas100ail2, countrySmall = tolower(country))
+meas100ail2 <- select(meas100ail2, - country)
 
 # con tubos
-latestData2 <- latestData %>%
+meas100ail2 <- meas100ail %>%
   mutate(biggerValue = value + 10) %>%
   select(- cityURL, - locationURL) %>%
   mutate(countrySmall = tolower(country)) %>%
   select(- country)
-
-# tiempo
-system.time(latestData2 <- mutate(latestData, biggerValue = value + 10))+
-system.time(latestData2 <- select(latestData2, - cityURL, - locationURL))+
-system.time(latestData2 <- mutate(latestData2, countrySmall = tolower(country)))+
-system.time(latestData2 <- select(latestData2, - country))
-
-load("data/meas100ail.RData")
-system.time(latestData2 <- latestData %>%
-              mutate(biggerValue = value + 10) %>%
-              select(- cityURL, - locationURL) %>%
-              mutate(countrySmall = tolower(country)) %>%
-              select(- country))
