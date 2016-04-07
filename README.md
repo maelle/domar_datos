@@ -1,5 +1,4 @@
-# domar_datos
-:boom: Datos y codigo para la sessión "Domar datos con R" el 14 abril en el CREAL :boom:
+# :boom: Datos y codigo para la sessión "Domar datos con R" el 14 abril en el CREAL :boom:
 
 Esta sessión es para aprender a domar datos con R con los paquetes `dplyr` y `tidyr`. En este repository pongo los datos y codigo. El dia de la sessión el codigo el escribiré al mismo tiempo que los participantes peró es util para mi ver un poco lo que haremos.
 
