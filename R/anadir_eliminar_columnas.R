@@ -12,8 +12,8 @@ glimpse(latestData)
 latestData %>% select(- cityURL, - locationURL)
 
 # O si quiero solo los datos (values) positivos
-latestData %>% filter(value > 0)
+latestPositivos <- latestData %>% filter(value > 0)
 # O solo las datos para Mongolia
-latestData %>% filter(country == "MN")
+latestMN <- latestData %>% filter(country == "MN")
 # O solo las datos positivos para Mongolia
-latestData %>% filter(country == "MN", value > 0)
+latestPositivosMN <- latestData %>% filter(country == "MN", value > 0)
