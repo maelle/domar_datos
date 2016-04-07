@@ -21,4 +21,6 @@ save(meas100ail, file = "data/meas100ail.RData")
 countries <- aq_countries()
 save(countries, file = "data/countries.RData")
 
-
+# dummy data
+moreData <- aq_measurements(limit = 1000)
+save(moreData, file = "data/moreData.RData")
