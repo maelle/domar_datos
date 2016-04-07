@@ -6,7 +6,8 @@ latestData %>%
   group_by(country) %>% 
   mutate(rankingValue = rank(value)) %>%
   select(location, city, country, value, rankingValue) %>%
-  arrange(country)
+  arrange(country) %>%
+  ungroup()
 
 # ahora tal vez quiero ver la secunda "location" en cada pais
 latestData %>%
