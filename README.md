@@ -35,5 +35,8 @@ Cada script presenta algunas lineas de codigo para un tema.
 
 * [Estos cursos](https://www.coursera.org/specializations/jhu-data-science/1) son gratuitos y muy buenos. Por ejemplo he hecho "Getting and Cleaning Data" y aprendido muchas cosas que me sirven cada dia ahora!
 
+* [Qué son datos limpios?](http://vita.had.co.nz/papers/tidy-data.pdf) Este articulo es muy interesante. 
+
+* [Diez mandamientos para poner datos en R](http://www.seascapemodels.org/rstats%20rspatial/2015/11/13/data-commandments.html) El numero 8 es "Thou will use R for data-wrangling and keep neat data wrangling scripts" !
 ## Acknowledgements
-Thanks to Margaux Sanchez for her help!
+Thanks to Margaux Sanchez for her help. Thanks also to Andrew MacDonalds whose [course](http://biol548o.github.io/) must have been terrific: I took a few links from the website.
