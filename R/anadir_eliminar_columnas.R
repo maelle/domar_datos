@@ -9,6 +9,6 @@ glimpse(latestData)
 # Tal vez no m'interessa algunas columnas
 latestData <- latestData %>% select(- cityURL, - locationURL, - longitude, - latitude)
 # Nueva variable con letras minúsculas
-latestData %>% mutate(smallCountry = tolower(country))
+latestData <- latestData %>% mutate(smallCountry = tolower(country))
 # Nueva variable 
-latestData %>% mutate(biggerValue = value + 10)
+latestData <- latestData %>% mutate(biggerValue = value + 10)
