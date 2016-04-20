@@ -1,7 +1,8 @@
 library(dplyr)
 library("tidyr")
 load("data/meas100ail.RData")
-
+# hay lineas repetidas
+meas100ail <- unique(meas100ail)
 # Qué hay aqui dientro?
 
 glimpse(meas100ail)
@@ -18,7 +19,7 @@ widemeas %>% gather(parameter, value, co:so2)
 widemeas %>% gather(parameter, value, co:so2, na.rm = TRUE)
 
 # date i time separados
-meas100ail <- meas100ail %>% separate(dateUTC, c("date", "time"), sep = " ")
+meas100ail <- meas100ail %>% separate(dateLocal, c("date", "time"), sep = " ")
 # de nuevo quiero que sea date i time
 library("lubridate")
 meas100ail <- meas100ail %>% mutate(date = as_date(ymd(date)),
